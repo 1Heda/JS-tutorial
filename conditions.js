@@ -1,11 +1,12 @@
 
-let year =prompt('In which year was miyen born?');
-if (year == 2003) {
-    alert("You are correct! Miyan was born in 2003.");
+let favoriteColor = "red";
+let guess = "red";
 
-}else if (year < 2003) {
-    alert("Miyan was born after " + year + ". Try again!");
-}
-else if (year > 2003) {
-    alert("Miyan was born before " + year + ". Try again!");
+console.log("let's play a guessing game!");
+console.log("Your guess: " + guess);
+
+if (guess === favoriteColor) {
+    console.log("Correct "  + guess + " is the favorite color!");
+}else{
+    console.log("Incorrect "  + guess + " is not the favorite color.");
 }
